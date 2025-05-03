@@ -1,0 +1,6 @@
+=> Package Installtion Commands
+  - sudo apt install <--docker.io-->
+  - sudo apt-get install <--docker.io--> // for searching outside
+  - sudo apt update // for update system
+  - which <--docker--> // for conformation usally it's in /usr/bin
+  - sudo apt remove <--docker.io-->   
