@@ -1,0 +1,21 @@
+=> User Managment Commands
+   - sudo useradd -m <name> // add new user - conformation /home - ls
+   - cat /etc/passwd // conformation
+   - sudo passwd <name> // assign password to that user
+   - su <name>
+   - whoami // know active user
+   - exit // for terminate new added user
+   - sudo userdel -r <name> // remove user from home listing
+
+=> Group Managment Commands
+   - sudo groupadd <groupname> // add new group
+   - cat /etc/group
+   - sudo gpasswd -a <name> <groupname>
+   - sudo gpasswd -M <name>,<name>,<name> <groupname>
+   - sudo groupdel <groupname>
+
+=> File Managment Commands
+   - chmod <permission_number> <directory/file_name> 
+   - umask // default permission (0002)
+   - sudo chown <user> <directory/file_name> // change owner 
+   - sudo chgrp <user> <directory/file_name> // change group
