@@ -1,0 +1,11 @@
+=> Local -> Server
+   - scp -i "ubuntu.pem" -r <dictory_name> ubuntu@ec2-43-204-140-108.ap-south-1.compute.amazonaws.com:/home/ubuntu
+
+// Note : Path of directory in local should be defined.
+          Here /home/ubuntu is path where we want to paste in server.
+          '-r' stands for recursively only for directories.
+
+=> Server -> Local
+   - scp -i "ubuntu.pem" -r ubuntu@ec2-43-204-140-108.ap-south-1.compute.amazonaws.com:/home/ubuntu/Profes .
+
+// Note : Here '.' at the last defines current position in local system where content will be paste.
